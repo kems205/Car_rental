@@ -1,0 +1,70 @@
+# ===========================
+# Environnement virtuel
+# ===========================
+env/
+venv/
+.env
+.venv/
+
+# ===========================
+# Variables d'environnement
+# ===========================
+.env
+.env.*
+*.env
+
+# ===========================
+# Django
+# ===========================
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+/static/
+
+# ===========================
+# Migrations (optionnel)
+# ===========================
+# Décommente si tu ne veux pas versionner les migrations
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# IDE / Editeurs
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================
+# Coverage / Tests
+# ===========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===========================
+# Build / Dist
+# ===========================
+dist/
+build/
+*.egg-info/
