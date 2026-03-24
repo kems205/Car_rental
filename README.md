@@ -57,9 +57,17 @@ Car Rental is a full-featured web application that allows users to browse availa
 ```
 
 2. Create and activate virtual environment
+
+   **Linux / macOS**
 ```bash
    python3 -m venv env
    source env/bin/activate
+```
+
+   **Windows**
+```cmd
+   python -m venv env
+   env\Scripts\activate
 ```
 
 3. Install dependencies
@@ -68,17 +76,38 @@ Car Rental is a full-featured web application that allows users to browse availa
 ```
 
 4. Apply migrations
+
+   **Linux / macOS**
 ```bash
+   python3 manage.py migrate
+```
+
+   **Windows**
+```cmd
    python manage.py migrate
 ```
 
 5. Create a superuser
+
+   **Linux / macOS**
 ```bash
+   python3 manage.py createsuperuser
+```
+
+   **Windows**
+```cmd
    python manage.py createsuperuser
 ```
 
 6. Run the development server
+
+   **Linux / macOS**
 ```bash
+   python3 manage.py runserver
+```
+
+   **Windows**
+```cmd
    python manage.py runserver
 ```
 
